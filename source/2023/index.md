@@ -7,7 +7,8 @@ layout: hidden
 <span style="font-size: 25px; color: black; font-weight: bold;letter-spacing: 5px;">WX MPF</span>
 </div>
 <div style="text-align: center;margin-top: -10px;">
-<span style="font-size: 20px; color: black; font-weight: normal;letter-spacing: 5px;">GRAPHIC DESIGN PORTFOLIO</span>
+<span style="font-size: 20px; color: black; font-weight: normal;letter-spacing: 5px;">
+TALKING AND TALKING</span>
 </div>
 
 
@@ -23,3 +24,7 @@ layout: hidden
 ![](https://githubimages.pengfeima.cn/images/202211291216662.jpg)
 ![3631669695359_.pic](https://githubimages.pengfeima.cn/images/202211291216722.jpg)
 {% endgallery %}
+<div style="height: 200px;"></div>
+{% note color:cyan 以上。 %}
+
+<!-- red、orange、amber、yellow、green、cyan、blue、purple、light、dark、warning、error -->

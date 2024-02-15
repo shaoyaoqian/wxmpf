@@ -103,5 +103,5 @@ theme: stellar
 deploy:
   type: git
   repository: git@github.com:shaoyaoqian/wxmpf.git
-  branch: open
+  branch: main
 
