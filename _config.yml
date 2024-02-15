@@ -101,4 +101,7 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:shaoyaoqian/wxmpf.git
+  branch: open
+
