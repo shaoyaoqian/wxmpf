@@ -13,16 +13,17 @@ TALKING AND TALKING</span>
 
 
 {% gallery layout:grid ratio:square size:mix %}
-<!-- ![](https://githubimages.pengfeima.cn/images/202211291216879.jpg) -->
-![](https://githubimages.pengfeima.cn/images/202211291217546.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291217893.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291217240.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291216884.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291216894.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291217904.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291217670.jpg)
-![](https://githubimages.pengfeima.cn/images/202211291216662.jpg)
-![3631669695359_.pic](https://githubimages.pengfeima.cn/images/202211291216722.jpg)
+![Figure_1](https://githubimages.pengfeima.cn/images/202402152143773.png)
+![Figure_2](https://githubimages.pengfeima.cn/images/202402152143967.png)
+![Figure_3](https://githubimages.pengfeima.cn/images/202402152143632.png)
+![Figure_4](https://githubimages.pengfeima.cn/images/202402152143724.png)
+![Figure_5](https://githubimages.pengfeima.cn/images/202402152142389.png)
+![Figure_6](https://githubimages.pengfeima.cn/images/202402152142390.png)
+![Figure_7](https://githubimages.pengfeima.cn/images/202402152142431.png)
+![Figure_8](https://githubimages.pengfeima.cn/images/202402152142720.png)
+![Figure_9](https://githubimages.pengfeima.cn/images/202402152142105.png)
+![Figure_10](https://githubimages.pengfeima.cn/images/202402152142443.png)
+![Figure_11](https://githubimages.pengfeima.cn/images/202402152142525.png)
 {% endgallery %}
 <div style="height: 200px;"></div>
 {% note color:cyan 以上。 %}
