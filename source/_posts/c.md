@@ -3,6 +3,7 @@ title: gallery
 layout: hidden
 ---
 
+## 从学校去王璇家
 {% image https://githubimages.pengfeima.cn/images/202402162248353.jpg 从学校到王璇家(武功县人民政府附近)大概需要一个半小时，我8点出发，预计10点之前到。%}
 
 
@@ -23,3 +24,28 @@ http://xhslink.com/vZySxB
 ![image-20240216231033816](https://githubimages.pengfeima.cn/images/202402162310912.png)
 ![image-20240216231056455](https://githubimages.pengfeima.cn/images/202402162310506.png)
 
+
+## 从家去学校(经过衢州)
+
+{% image https://githubimages.pengfeima.cn/images/202402171446133.png 从家到明清宫轻轨站 (23分钟) %}
+
+{% image https://githubimages.pengfeima.cn/images/202402171438039.png 从明清宫站到衢州站( 2 小时 14 分钟)  %}
+
+{% image https://githubimages.pengfeima.cn/images/202402171449642.png 从衢州到西安(G869次列车，耗时9小时55分钟) %}
+
+## 从西安北到学校
+
+{% image https://githubimages.pengfeima.cn/images/202402171454318.png 从西安北到仁村(1小时5分钟) %}
+
+{% image https://githubimages.pengfeima.cn/images/202402171455810.png 从仁村到学校(25分钟，黑车10元，滴滴50元) %}
+
+## 从机场到学校(1)
+
+{% image https://githubimages.pengfeima.cn/images/202402172350377.png 直接从机场到学校(1小时16分钟,出租车200元)%}
+
+## 从机场到学校(2)
+
+{% image https://githubimages.pengfeima.cn/images/202402171500367.png 从机场到仁村(1小时25分钟) %}
+
+## 从仁村到学校
+{% image https://githubimages.pengfeima.cn/images/202402180030474.png 734路,346路,751路,高新城乡旅游1号线,大概一小时 %}
