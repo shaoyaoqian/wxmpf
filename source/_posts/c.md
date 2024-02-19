@@ -13,7 +13,7 @@ layout: hidden
 
 
 
-1. 酒，三样特产。
+<!-- 1. 酒，三样特产。
 2. 车洗干净，后备箱空出来，两个小人摘掉。
 
 
@@ -22,10 +22,10 @@ layout: hidden
 http://xhslink.com/vZySxB
 
 ![image-20240216231033816](https://githubimages.pengfeima.cn/images/202402162310912.png)
-![image-20240216231056455](https://githubimages.pengfeima.cn/images/202402162310506.png)
+![image-20240216231056455](https://githubimages.pengfeima.cn/images/202402162310506.png) -->
 
 
-## 从家去学校(经过衢州)
+## 去西安(经过衢州)
 
 {% image https://githubimages.pengfeima.cn/images/202402171446133.png 从家到明清宫轻轨站 (23分钟) %}
 
@@ -33,11 +33,14 @@ http://xhslink.com/vZySxB
 
 {% image https://githubimages.pengfeima.cn/images/202402171449642.png 从衢州到西安(G869次列车，耗时9小时55分钟) %}
 
-## 从西安北到学校
+## 从西安北到学校(1)
 
 {% image https://githubimages.pengfeima.cn/images/202402171454318.png 从西安北到仁村(1小时5分钟) %}
-
+### a.从仁村到学校
 {% image https://githubimages.pengfeima.cn/images/202402171455810.png 从仁村到学校(25分钟，黑车10元，滴滴50元) %}
+
+### b.从仁村到学校
+{% image https://githubimages.pengfeima.cn/images/202402180030474.png 734路,346路,751路,高新城乡旅游1号线,大概一小时,末班车 %}
 
 ## 从机场到学校(1)
 
@@ -47,5 +50,3 @@ http://xhslink.com/vZySxB
 
 {% image https://githubimages.pengfeima.cn/images/202402171500367.png 从机场到仁村(1小时25分钟) %}
 
-## 从仁村到学校
-{% image https://githubimages.pengfeima.cn/images/202402180030474.png 734路,346路,751路,高新城乡旅游1号线,大概一小时 %}
