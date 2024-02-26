@@ -4,10 +4,10 @@ layout: hidden
 ---
 
 ## 从学校去王璇家
-{% image https://githubimages.pengfeima.cn/images/202402162248353.jpg 从学校到王璇家(武功县人民政府附近)大概需要一个半小时，我8点出发，预计10点之前到。%}
+{% image https://githubimages.pengfeima.cn/images/202402162248353.jpg 从学校到王璇家(武功县人民政府附近)大概需要一个小时四十分钟，我8点出发，预计10点之前到。%}
 
 
-{% image https://githubimages.pengfeima.cn/images/202402162256238.png 先沿着环山公路(S107)走到马召镇，路上找洗车店洗车。%}
+{% image https://githubimages.pengfeima.cn/images/202402162256238.png 先沿着环山公路(S107)走到马召镇(收费站5元，可绕过)，路上找洗车店洗车。%}
 
 {% image https://githubimages.pengfeima.cn/images/202402162256999.png 再沿路北上(G108)，经过周至，到达武功县 %}
 
@@ -36,11 +36,14 @@ http://xhslink.com/vZySxB
 ## 从西安北到学校(1)
 
 {% image https://githubimages.pengfeima.cn/images/202402171454318.png 从西安北到仁村(1小时5分钟) %}
-### a.从仁村到学校
+### 从仁村到学校(1)
 {% image https://githubimages.pengfeima.cn/images/202402171455810.png 从仁村到学校(25分钟，黑车10元，滴滴50元) %}
 
-### b.从仁村到学校
+### 从仁村到学校(2)
 {% image https://githubimages.pengfeima.cn/images/202402180030474.png 734路,346路,751路,高新城乡旅游1号线,大概一小时,末班车 %}
+
+## 从西安北到学校(2)
+### 从 老校区
 
 ## 从机场到学校(1)
 
