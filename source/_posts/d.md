@@ -64,22 +64,31 @@ LOG_F(WATCH, "The volume of the solid is %.16e.\n", volumes_sum);
 
 运行有对流项的显隐格式共计8个程序，数据结果位于`/home/kokkos/ssh/npuheart/build_sphere`
 ``` bash
-taskset -c 20 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
+taskset -c 28 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
 disown
-taskset -c 21 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
+taskset -c 29 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
 disown
-taskset -c 22 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
+taskset -c 30 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
 disown
-taskset -c 23 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
+taskset -c 31 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
 disown
-taskset -c 24 nohup ./test/fsi_lid_driven_sphere --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
+taskset -c 32 nohup ./test/fsi_lid_driven_sphere --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
 disown
-taskset -c 25 nohup ./test/fsi_lid_driven_sphere --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
+taskset -c 33 nohup ./test/fsi_lid_driven_sphere --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 0.1 --muf 0.01 --lamb 100 &
 disown
-taskset -c 26 nohup ./test/fsi_lid_driven_sphere --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
+taskset -c 34 nohup ./test/fsi_lid_driven_sphere --Nt 10000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
 disown
-taskset -c 27 nohup ./test/fsi_lid_driven_sphere --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
+taskset -c 35 nohup ./test/fsi_lid_driven_sphere --Nt 5000 -T 10 --Nb 64 --Ns 30 --mus 1.0 --muf 0.01 --lamb 100 &
 disown
+```
+<!-- node 2024 年 2 月 27 日 15:43 -->
+取消使用对流项，再运行8个程序。
+```bash
+rm -r build_sphere_noadvection
+cmake -B build_sphere_noadvection -DNPUHEART_ADVECTION=false
+cmake --build build_sphere_noadvection --target fsi_lid_driven_sphere_implicit_JFNK -j16
+cmake --build build_sphere_noadvection --target fsi_lid_driven_sphere -j16
+cd build_sphere_noadvection
 ```
 
 {% endtimeline %}
