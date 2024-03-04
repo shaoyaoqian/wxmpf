@@ -1,8 +1,9 @@
 ---
+abbrlink: 3
 title: gallery
 layout: hidden
+date: 2024-03-05 00:58:00
 ---
-
 <div style="text-align: center;">
 <span style="font-size: 25px; color: black; font-weight: bold;letter-spacing: 5px;">WX MPF</span>
 </div>
