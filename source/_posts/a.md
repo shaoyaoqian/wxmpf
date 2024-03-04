@@ -1,5 +1,5 @@
 ---
-abbrlink: 3
+abbrlink: gallery
 title: gallery
 layout: hidden
 date: 2024-03-05 00:58:00

@@ -1,7 +1,6 @@
 ---
 title: gallery
 layout: hidden
-abbrlink: 45926
 date: 2024-03-05 00:58:00
 ---
 {% box color:black %}
