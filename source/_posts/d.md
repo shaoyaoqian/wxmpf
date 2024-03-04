@@ -16,7 +16,7 @@ tags:
 <!-- node 2024 年 2 月 26 日 21:50 -->
 在 `/home/kokkos/ssh/npuheart/build` 目录下运行了9个模拟直杆弯曲的程序。
 ```bash
-taskset -c 5 nohup ./test/fsi_bar_bending_implicit_JFNK --Nt 1000000 --Nb 64 --Ns 30 --kappa 100000 &
+taskset -c 5 nohup ./test/fsi_bar_bending --Nt 1000000 --Nb 64 --Ns 30 --kappa 100000 &
 disown
 taskset -c 6 nohup ./test/fsi_bar_bending_implicit_JFNK --Nt 1000000 --Nb 96 --Ns 30 --kappa 100000 &
 disown
@@ -89,6 +89,33 @@ cmake -B build_sphere_noadvection -DNPUHEART_ADVECTION=false
 cmake --build build_sphere_noadvection --target fsi_lid_driven_sphere_implicit_JFNK -j16
 cmake --build build_sphere_noadvection --target fsi_lid_driven_sphere -j16
 cd build_sphere_noadvection
+```
+<!-- node 2024 年 2 月 27 日 17:34 -->
+计算理想左心室舒张的应变
+```
+cd /home/kokkos/ssh/npuheart/build_sphere_noadvection
+make fsi_ideal_LV_diastole fsi_ideal_LV_diastole_implicit_JFNK -j32
+taskset -c 36 nohup ./test/fsi_ideal_LV_diastole --Ns 30 --Nb 64 --Nt 400000 -T 10 --kappa 1000000 --beta 50000000 &
+disown
+taskset -c 38 nohup ./test/fsi_ideal_LV_diastole_implicit_JFNK --Ns 30 --Nb 64 --Nt 16000 -T 2 --kappa 1000000 --beta 50000000 &
+disown
+```
+<!-- node 2024 年 2 月 27 日 18:48 -->
+LV_diastole_3D_explicit_30_64_400000_10_0.04
+
+<!-- node 2024 年 2 月 28 日 17:29 -->
+### 重新跑真实左心室算例
+
+<!-- node 2024 年 3 月 2 日 17:29 -->
+``` bash
+taskset -c 28 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 20000 -T 10 --Nb 64 --Ns 30 --mus 10.0 --muf 0.01 --lamb 100 &
+disown
+taskset -c 30 nohup ./test/fsi_lid_driven_sphere_implicit_JFNK --Nt 20000 -T 10 --Nb 64 --Ns 30 --mus 100.0 --muf 0.01 --lamb 100 &
+disown
+taskset -c 32 nohup ./test/fsi_lid_driven_sphere --Nt 20000 -T 10 --Nb 64 --Ns 30 --mus 10.0 --muf 0.01 --lamb 100 &
+disown
+taskset -c 34 nohup ./test/fsi_lid_driven_sphere --Nt 20000 -T 10 --Nb 64 --Ns 30 --mus 100.0 --muf 0.01 --lamb 100 &
+disown
 ```
 
 {% endtimeline %}
