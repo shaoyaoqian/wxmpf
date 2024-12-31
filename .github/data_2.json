@@ -2,9 +2,11 @@
   "version": "v2",
   "content": [
     {
-      "title": "荔枝树",
-      "url": "https://qiulab.work/",
-      "cover": "https://qiulab.work/assets/avatar/avatar.png"
+      "title": "skylwn",
+      "url": "https://skylwn.com",
+      "avatar": "https://weavatar.com/avatar/e7180afa264865c31b94c7ca2a10b2b8fe2cc624c62d45136e3d950c1b3a2e9d",
+      "screenshot": "https://cdn.jsdelivr.net/gh/skylwn/blog-assets@main/cover.png",
+      "description": "编程 启动!"
     }
   ]
 }
