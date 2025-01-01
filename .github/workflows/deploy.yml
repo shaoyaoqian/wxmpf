@@ -56,6 +56,6 @@ jobs:
         run: |
           git clone https://github.com/shaoyaoqian/hexo-theme-stellar.git themes/stellar
           cd themes/stellar
-          git checkout main-xaoxuu
+          git checkout main-xaoxuu-129
           cd ../..
           npm run deploy
