@@ -3,11 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 狗璇
+subtitle: '我是狗璇'
 description: ''
 keywords:
 author: John Doe
+avatar:
+favicon: https://githubimages.pengfeima.cn/images/202402162248353.jpg
 language: en
 timezone: ''
 
