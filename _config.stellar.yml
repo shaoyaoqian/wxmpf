@@ -6,3 +6,11 @@ article:
   type: story 
   license: 
  
+comments:
+  service: artalk
+  artalk:
+    css: https://unpkg.com/artalk@2.7/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.7/dist/Artalk.js 
+    server: https://comments.pengfeima.cn/
+    placeholder: '啦啦'
+    darkMode: auto
