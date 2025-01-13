@@ -1,0 +1,16 @@
+footer:
+  content: 版权所有，禁止转载
+
+
+article:
+  type: story 
+  license: 
+ 
+comments:
+  service: artalk
+  artalk:
+    css: https://comments.pengfeima.cn/dist/Artalk.css
+    js: https://comments.pengfeima.cn/dist/Artalk.js
+    server: https://comments.pengfeima.cn/
+    placeholder: '啦啦'
+    darkMode: auto
